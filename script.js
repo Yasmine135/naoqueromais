@@ -60,9 +60,9 @@ function mostraPerguntas (){
 function mostrarAlternativas (){
     for (const opcao of perguntaAtual.alternativa){
         const botaoAlternativa = documento.createElement('button');
-        botaoAlternativa.textContent = opcao.texto:
-        caixaAlternativa.appendChild(botaoAlternativa)
+        botaoAlternativa.textContent = opcao.texto;
+        caixaAlternativa.appendChild(botaoAlternativa);
     }
 }
 
-mostrarPerguntas();
+mostraPerguntas();
