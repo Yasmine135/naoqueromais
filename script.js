@@ -20,7 +20,7 @@ const alternativas = [
     },
 
     {
-        enunciado: "Na tec tu escolhe:",
+        enunciado: "Na amb tu escolhe:",
         alternativa: [
             {
                 texto: "alternativa3",
@@ -34,7 +34,7 @@ const alternativas = [
     },
 
     {
-        enunciado: "No social tu escolhe:",
+        enunciado: "No tec tu escolhe:",
         alternativa: [
             {
                 texto: "alternativa5",
@@ -55,13 +55,14 @@ function mostraPerguntas (){
     perguntaAtual = alternativas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
+    mostrarAlternativas ();
 }
 
 function mostrarAlternativas (){
     for (const opcao of perguntaAtual.alternativa){
         const botaoAlternativa = documento.createElement('button');
         botaoAlternativa.textContent = opcao.texto;
-        caixaAlternativa.appendChild(botaoAlternativa);
+        caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
 
