@@ -6,43 +6,43 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const alternativas = [
     {
-        enunciado: “No social, TU QUER...”,
+        enunciado: "No social tu escolhe:",
         alternativa: [
             {
-                texto: “alternativa1”,
-                afirmacao: “afirmação1”,
+                texto: "alternativa1",
+                afirmacao: "afirmação1",
             },
             {
-                texto:  “alternativa2”,
-                afirmacao: “afirmação2”,
+                texto:  "alternativa2",
+                afirmacao: "afirmação2",
             },
         ]
     },
 
     {
-        enunciado: “Na tec, TU QUER...”,
+        enunciado: "Na tec tu escolhe:",
         alternativa: [
             {
-                texto: “alternativa3”,
-                afirmacao: “afirmação3”,
+                texto: "alternativa3",
+                afirmacao: "afirmação3",
             },
             {
-                texto: “alternativa4”,
-                afirmacao: “afirmação4”,
+                texto: "alternativa4",
+                afirmacao: "afirmação4",
             },
         ]
     },
 
     {
-        enunciado: “No social, TU QUER...”,
+        enunciado: "No social tu escolhe:",
         alternativa: [
             {
-                texto: “alternativa5”,
-                afirmacao: “afirmação5”,
+                texto: "alternativa5",
+                afirmacao: "afirmação5",
             },
             {
-                texto: “alternativa6”,
-                afirmacao: “afirmação6”,
+                texto: "alternativa6",
+                afirmacao: "afirmação6",
             },
         ]
     },
@@ -54,7 +54,7 @@ let perguntaAtual;
 function mostraPerguntas (){
     perguntaAtual = alternativas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = “ ”;
+    caixaAlternativas.textContent = "";
 }
 
 function mostrarAlternativas (){
