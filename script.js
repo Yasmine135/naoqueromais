@@ -73,7 +73,7 @@ function mostrarAlternativas (){
     }
 }
 
-function epstaSelecionada(opcao){
+function respostaSelecionada(opcao){
     const afirmacoes = opcao.alternativas;
     historiaFinal += afirmacoes =
     atual++;
