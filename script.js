@@ -72,7 +72,7 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcao){
     const afirmacoes = opcao.afirmacao;
-    historiaFinal += afirmacoes + " ";
+    historiaFinal += afirmacoes + "pse... preguiça de escrever";
     atual++;
     mostraPerguntas();
 }
