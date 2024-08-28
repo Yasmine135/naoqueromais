@@ -10,13 +10,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Você fica bilionário, porém você só pode usar um salário mínimo por mês",
-                afirmacao: "Você gastou tudo o seu salário desse mês, ficou o resto do mês com fome...
-                ",
+                afirmacao: "Você gastou tudo o seu salário desse mês, ficou o resto do mês com fome..",
             },
             {
                 texto: "Você acaba com a fome do mundo, mas o canibalismo agora é a solução",
-                afirmacao: "Agor que o canibalismo tá liberdo, cuidado, você tá sendo perseguidor pelo mendigo da esquina...
-                ",
+                afirmacao: "Agor que o canibalismo tá liberdo, cuidado, você tá sendo perseguidor pelo mendigo da esquina...",
             },
         ]
     },
@@ -25,13 +23,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Você acaba com o desmatamento, mas não existe mais macaco (reflorestamento manual)",
-                afirmacao: "Replantando a floresta, todos acabam exaustos, agora ninguém tem tempo de platar comida...
-                ",
+                afirmacao: "Replantando a floresta, todos acabam exaustos, agora ninguém tem tempo de platar comida...",
             },
             {
                 texto: "A agricultura se torna menos agressiva ao ambiente e mais lucrativa, mas ovelhas são os novos deuses e existe uma supremacia em volta delas",
-                afirmacao: "As ovelhas ordenam tudo, queimaram tudo de lã (é ofencivo,sabe...), tá frio e o seu vizinho quer te dar de oferenda...
-                ",
+                afirmacao: "As ovelhas ordenam tudo, queimaram tudo de lã (é ofencivo,sabe...), tá frio e o seu vizinho quer te dar de oferenda...",
             },
         ]
     },
