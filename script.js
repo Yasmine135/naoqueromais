@@ -10,11 +10,13 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Você fica bilionário, porém você só pode usar um salário mínimo por mês",
-                afirmacao: "Você gastou tudo, ficou o resto do mês com fome...",
+                afirmacao: "Você gastou tudo o seu salário desse mês, ficou o resto do mês com fome...
+                ",
             },
             {
                 texto: "Você acaba com a fome do mundo, mas o canibalismo agora é a solução",
-                afirmacao: "Você tá sendo perseguidor pelo mendigo da esquina...",
+                afirmacao: "Agor que o canibalismo tá liberdo, cuidado, você tá sendo perseguidor pelo mendigo da esquina...
+                ",
             },
         ]
     },
@@ -23,11 +25,13 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Você acaba com o desmatamento, mas não existe mais macaco (reflorestamento manual)",
-                afirmacao: "Estão todos exaustos, agora ninguémtem tempo de platar comida...",
+                afirmacao: "Replantando a floresta, todos acabam exaustos, agora ninguém tem tempo de platar comida...
+                ",
             },
             {
-                texto: "agricultura se torna menos agressiva ao ambiente e mais lucrativa, mas ovelhas são os novos deuses e existe uma supremacia em volta delas",
-                afirmacao: "Queimaram tudo de lã, tá frio e o seu vizinho quer te dar de oferenda...",
+                texto: "A agricultura se torna menos agressiva ao ambiente e mais lucrativa, mas ovelhas são os novos deuses e existe uma supremacia em volta delas",
+                afirmacao: "As ovelhas ordenam tudo, queimaram tudo de lã (é ofencivo,sabe...), tá frio e o seu vizinho quer te dar de oferenda...
+                ",
             },
         ]
     },
@@ -36,11 +40,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "A humanidade teria um super avanço tecnológico, mas a revolução das máquinas começa em 5 anos 4 meses 1 dia 8 horas…",
-                afirmacao: "Amigo... corre...",
+                afirmacao: "O colapso tecnológico está perto, acredite, vai faltar tempo... Amigo... Corre...",
             },
             {
                 texto: "Você tem a armadura do homem de ferro, mas será caçado por um xenomorfo para sempre",
-                afirmacao: "Preciso mesmo te dizer?",
+                afirmacao: "O xenomorfo já te localizou... preciso mesmo te dizer?",
             },
         ]
     },
