@@ -6,43 +6,41 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const alternativas = [
     {
-        enunciado: "No social tu escolhe:",
+        enunciado: "No âmbito social, você prefere:",
         alternativa: [
             {
-                texto: "alternativa1",
-                afirmacao: "afirmação1",
+                texto: "Altenativa 1",
+                afirmacao: "Afirmação 1",
             },
             {
-                texto:  "alternativa2",
-                afirmacao: "afirmação2",
+                texto: "Altenativa 2",
+                afirmacao: "Afirmação 2",
             },
         ]
     },
-
     {
-        enunciado: "Na amb tu escolhe:",
+        enunciado: "No âmbito ambiental, você prefere:",
         alternativa: [
             {
-                texto: "alternativa3",
-                afirmacao: "afirmação3",
+                texto: "Altenativa 3",
+                afirmacao: "Afirmação 3",
             },
             {
-                texto: "alternativa4",
-                afirmacao: "afirmação4",
+                texto: "Altenativa 4",
+                afirmacao: "Afirmação 4",
             },
         ]
     },
-
     {
-        enunciado: "No tec tu escolhe:",
+        enunciado: "No âmbito tecnológico, você prefere:",
         alternativa: [
             {
-                texto: "alternativa5",
-                afirmacao: "afirmação5",
+                texto: "Altenativa 5",
+                afirmacao: "Afirmação 5",
             },
             {
-                texto: "alternativa6",
-                afirmacao: "afirmação6",
+                texto: "Altenativa 6",
+                afirmacao: "Afirmação 6",
             },
         ]
     },
@@ -50,39 +48,39 @@ const alternativas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal;
-
-function mostraPerguntas(){
-    if(atual >= alternativas.length);
-        return;
-}
+let historiaFinal = "";
 
 function mostraPerguntas (){
+    if(atual>= alternativas.length){
+        mostraResultado();
+        return;
+    }
     perguntaAtual = alternativas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
-    mostrarAlternativas ();
+    caixaAlternativas.textContent= "";
+    mostraAlternativas();
 }
 
-function mostrarAlternativas (){
-    for (const opcao of perguntaAtual.alternativa){
+function mostraAlternativas(){
+    for (const opcao of perguntaAtual.alternativa) {
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent = opcao.texto;
-        botaoAlternativa.addEventListener("click", ()=>respostaSelecionada(opcao));
+        botaoAlternativa.addEventListener("click", ()=> respostaSelecionada(opcao));
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
 
 function respostaSelecionada(opcao){
     const afirmacoes = opcao.alternativas;
-    historiaFinal += afirmacoes = "";
+    historiaFinal += afirmacoes + " ";
     atual++;
-    mostraPerguntas;
+    mostraPerguntas();
 }
 
 function mostraResultado (){
-    caixaPerguntas.textContent = "tu quis";
+    caixaPerguntas.textContent = "Em resumo você escolheu...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas = "";
+    caixaAlternativas.textContent = "";
 }
+
 mostraPerguntas();
