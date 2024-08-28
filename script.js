@@ -72,7 +72,7 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcao){
     const afirmacoes = opcao.afirmacao;
-    historiaFinal += afirmacoes + "vc morreu de fome, lamentável";
+    historiaFinal += afirmacoes + "";
     atual++;
     mostraPerguntas();
 }
