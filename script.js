@@ -14,7 +14,7 @@ const alternativas = [
             },
             {
                 texto: "Você acaba com a fome do mundo, mas o canibalismo agora é a solução",
-                afirmacao: "Agor que o canibalismo tá liberdo, cuidado, você tá sendo perseguidor pelo mendigo da esquina...",
+                afirmacao: "Agora que o canibalismo tá liberdo, cuidado, você tá sendo perseguido pelo mendigo da esquina...",
             },
         ]
     },
@@ -27,7 +27,7 @@ const alternativas = [
             },
             {
                 texto: "A agricultura se torna menos agressiva ao ambiente e mais lucrativa, mas ovelhas são os novos deuses e existe uma supremacia em volta delas",
-                afirmacao: "As ovelhas ordenam tudo, queimaram tudo de lã (é ofencivo,sabe...), tá frio e o seu vizinho quer te dar de oferenda...",
+                afirmacao: "As ovelhas ordenam tudo, queimaram tudo de lã(é ofencivo, sabe...), tá frio e o seu vizinho quer te dar de oferenda...",
             },
         ]
     },
