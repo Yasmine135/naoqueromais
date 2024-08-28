@@ -9,12 +9,12 @@ const alternativas = [
         enunciado: "No âmbito social, você prefere:",
         alternativa: [
             {
-                texto: "Altenativa 1",
-                afirmacao: "Afirmação 1",
+                texto: "Você fica bilionário, porém você só pode usar um salário mínimo por mês",
+                afirmacao: "Você gastou tudo... ficou o resto do mês com fome...",
             },
             {
-                texto: "Altenativa 2",
-                afirmacao: "Afirmação 2",
+                texto: "Você acaba com a fome do mundo, mas o canibalismo agora é a solução",
+                afirmacao: "Você tá sendo perseguidor pelo mendigo da esquina...",
             },
         ]
     },
@@ -22,12 +22,12 @@ const alternativas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativa: [
             {
-                texto: "Altenativa 3",
-                afirmacao: "Afirmação 3",
+                texto: "Você acaba com o desmatamento, mas não existe mais macaco (reflorestamento manual)",
+                afirmacao: "Estão todos exaustos, agora ninguémtem tempo de platar comida",
             },
             {
-                texto: "Altenativa 4",
-                afirmacao: "Afirmação 4",
+                texto: "agricultura se torna menos agressiva ao ambiente e mais lucrativa, mas ovelhas são os novos deuses e existe uma supremacia em volta delas",
+                afirmacao: "Queimaram udo de lã... Tá frio... E o seu vizinho quer te dar de oferenda...",
             },
         ]
     },
@@ -35,12 +35,12 @@ const alternativas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativa: [
             {
-                texto: "Altenativa 5",
-                afirmacao: "Afirmação 5",
+                texto: "A humanidade teria um super avanço tecnológico, mas a revolução das máquinas começa em 5 anos 4 meses 1 dia 8 horas…(start running…)",
+                afirmacao: "Amigo... corre...",
             },
             {
-                texto: "Altenativa 6",
-                afirmacao: "Afirmação 6",
+                texto: "Você tem a armadura do homem de ferro, mas será caçado por um xenomorfo para sempre",
+                afirmacao: "... preciso mesmo te dizer?",
             },
         ]
     },
@@ -72,7 +72,7 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcao){
     const afirmacoes = opcao.afirmacao;
-    historiaFinal += afirmacoes + "pse... preguiça de escrever";
+    historiaFinal += afirmacoes + "vc morreu de fome, lamentável";
     atual++;
     mostraPerguntas();
 }
