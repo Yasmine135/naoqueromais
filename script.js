@@ -53,7 +53,7 @@ let perguntaAtual;
 let historiaFinal;
 
 function mostraPerguntas(){
-    if(atual> = alternativas.length);
+    if(atual >= alternativas.length);
         return;
 }
 
